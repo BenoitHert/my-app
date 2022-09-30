@@ -5,7 +5,7 @@ function Home() {
     return (
         <React.Fragment>
         <div>Home</div>
-        <Link to="/about">Go to About Page</Link>
+
         </React.Fragment>
     )
 }
