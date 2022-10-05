@@ -8,6 +8,7 @@ function Header() {
         <Link to="/about">Go to About Page</Link>
         <Link to="/home">Go to Home Page</Link>
         <Link to="/todo">Go to Todo Page</Link>
+        <Link to="/calendar">Go to Calendar Page</Link>
 
         </React.Fragment>
     )

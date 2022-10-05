@@ -5,6 +5,7 @@ import About from "./AboutComponent";
 import Home from "./HomeComponent";
 import {Route, Routes, Navigate} from "react-router-dom";
 import TodoList from "../Todo/TodoList";
+import DateCalendar from "../Calendar/Calendar";
 
 function Main() {
     return (
@@ -15,6 +16,7 @@ function Main() {
         <Route path="/about" element={<About/>}/>
         <Route path="/" element={<Navigate replace to="/home"/>}/>
         <Route path="/todo" element={<TodoList/>}/>
+        <Route path="/calendar" element={<DateCalendar/>}/>
         </Routes>
     
         <Footer/>
